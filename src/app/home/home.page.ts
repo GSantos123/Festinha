@@ -21,7 +21,8 @@ export class HomePage {
 
   }
   limpar(){
-    this.totalSalgadinho = 0;
+    this.qtdAdultos = 0;
+    this.qtdCriancas = 0;
     this.totalRefrigerante = 0;
     this.totalBolo = 0;
     this.calcular();
